@@ -1,12 +1,18 @@
 # Git
-실 사용 예제를 포함한 가이드 초안입니다.
-    
-## help option
+자주 사용하는 명령어에 대한 설명과 예시 및 이미지를 보여줍니다.
+잘못된 설명이 있거나 보완점 및 추가할 정보가 있다면 알려주시면 감사하겠습니다.
+
+## 주의사항
+1. Git의 모든 명령어는 Case-Insensitivity이고 옵션의 경우 Case-Sensitivity입니다.
+2. Git Local-Repository의 Configuration은 Directory기반입니다. 현재 Directory를 확인해주세요.
+3. 
+
+## Help
 모든 명령어에서 동작하는 옵션입니다.
 해당 명령어의 설명과 용법이 간략하게 기록되어있습니다.
 ```
-git command --help
-ex) git add --help 
+git add --help 
+git --help
 ```
 
 ## Auth
@@ -18,7 +24,8 @@ GitHub, GitLab 등 Git과 관련된 서비스에서 여러가지 사용자 인�
 ## Shell
 대부분의 운영체제에서 기본적으로 사용되는 것은 Bash Shell입니다.
 다만 Linux 환경에서 동작하는 Z Shell의 Plug-in 중 `Oh-My-ZSH`이 현재 Git Repository의 Branch를 표기해주기 때문에 조금 더 직관적으로 Branch관리가 가능해집니다. 추가적으로 컬러 커스터마이징도 지원하고 있습니다.
-![ohmyzsh sample image](https://github.com/HyeseongLim/images/blob/master/ohmyzsh_image.png?raw=true)
+
+![enter image description here](https://github.com/HyeseongLim/images/blob/master/ohmyzsh_image.png?raw=true)
 
 ## Command
 1. add
