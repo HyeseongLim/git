@@ -152,7 +152,7 @@ Windows에서 Git 설치 시 Git Bash가 같이 설치되고 Mac에서는 Z Shel
 	// show all branchs
 	git branch
 	// create a new branch
-	git branch -b {branch_name}
+	git branch {branch_name}
 	// delete a branch  
 	```
 	
