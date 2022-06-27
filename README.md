@@ -121,8 +121,8 @@ Windows에서 Git 설치 시 Git Bash가 같이 설치되고 Mac에서는 Z Shel
 	
 5. **fetch**
 	
-	Remote Repository에 있는 Data(Commit 된)를 Local Repository로 가져옵니다.
-	데이터는 `FETCH_HEAD` 라고 명명된 브랜치로 생성됩니다.
+	Remote Repository에 있는 Commit 된 Data를 Local Repository로 가져옵니다.
+	데이터는 `FETCH_HEAD` 라고 명명된 가상의 브랜치에 저장됩니다.
 	```
 	git fetch {remote_name}
 	ex) git fetch origin
